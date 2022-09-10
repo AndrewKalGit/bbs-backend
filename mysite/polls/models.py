@@ -7,3 +7,7 @@ class YearsServing(models.Model):
 
 class Members(models.Model):
     members_integer = models.IntegerField()
+
+
+class ReviewsImg(models.Model):
+    reviews_image = models.ImageField()
